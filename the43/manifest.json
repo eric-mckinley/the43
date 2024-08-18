@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "42to43",
   "description": "View premium Irish sports articles. Chrome extension install at https://github.com/eric-mckinley/the43",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "48": "the43-48.png"
   },
@@ -14,5 +14,9 @@
       ],
       "js": ["content.js"]
     }
+  ],
+  "host_permissions": [
+    "https://www.the42.ie/*",
+    "https://the42.ie/*"
   ]
 }
